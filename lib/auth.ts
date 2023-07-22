@@ -1,6 +1,7 @@
 import bcrypt from "bcrypt";
 import { SignJWT, jwtVerify } from "jose";
 import { db } from "./db";
+import { User } from "@prisma/client";
 
 export const hashPassword = (password: string) => bcrypt.hashSync(password, 10);
 
@@ -28,7 +29,7 @@ export const validateJWT = async (jwt: string) => {
     new TextEncoder().encode(process.env.JWT_SECRET)
   );
 
-  return payload.payload as any;
+  return payload.payload as Partial<User>;
 };
 
 export const getUserFromCookie = async (cookies: any) => {

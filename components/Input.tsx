@@ -1,6 +1,7 @@
 import clsx from "clsx";
+import { ComponentPropsWithoutRef } from "react";
 
-const Input = ({ className, ...props }) => {
+const Input = ({ className, ...props }: ComponentPropsWithoutRef<"input">) => {
   return (
     <input
       className={clsx(

@@ -11,8 +11,8 @@ export async function POST(request: NextRequest) {
 
   await db.project.create({
     data: {
-      name: req.name,
-      ownerId: user.id,
+      name: req.name!,
+      ownerId: user.id!,
     },
   });
   return new NextResponse(new Blob(), {
