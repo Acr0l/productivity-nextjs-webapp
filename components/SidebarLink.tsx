@@ -4,10 +4,11 @@ import Link from "next/link";
 import { Settings, User, Grid, Calendar } from "react-feather";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import { SidebarLinkProps } from "./Sidebar";
 
 const icons = { Settings, User, Grid, Calendar };
 
-const SidebarLink = ({ link }) => {
+const SidebarLink = ({ link }: { link: SidebarLinkProps }) => {
   const pathname = usePathname();
   let isActive = false;
 

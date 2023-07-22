@@ -1,9 +1,16 @@
 import logo from "@/assets/images/logo.png";
 import Image from "next/image";
+import { Calendar, Grid, Settings, User } from "react-feather";
 import Card from "./Card";
 import SidebarLink from "./SidebarLink";
-
-const links = [
+const icons = { Settings, User, Grid, Calendar };
+export interface SidebarLinkProps {
+  label: string;
+  icon: keyof typeof icons;
+  link: string;
+}
+interface SidebarLinkPropsArray extends Array<SidebarLinkProps> {}
+const links: SidebarLinkPropsArray = [
   { label: "Home", icon: "Grid", link: "/home" },
   {
     label: "Calendar",
