@@ -10,12 +10,12 @@ export default function DashboardRootLayout({ children }: { children: any }) {
         className="h-screen w-screen candy-mesh p-6"
         suppressHydrationWarning={true}
       >
-        <GlassPane className="w-full h-full flex items-center">
+        <GlassPane className="w-full h-full flex items-center p-6">
           <Sidebar />
           {children}
         </GlassPane>
-        <div id="modal"></div>
-        <div id="modal"></div>
+        
+        <div id="modal" />
       </body>
     </html>
   );
