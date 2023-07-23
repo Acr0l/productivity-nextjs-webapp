@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Productivity Nextjs Webapp
 
-## Getting Started
+![Project Status](https://img.shields.io/badge/status-in%20development-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-First, run the development server:
+## Description
+
+This productivity-related app is **in development**, focused on building an environment for the user to manage their tasks, personal projects, and calendar. The primary objective is to create an efficient and focused workspace for users to boost their productivity and achieve their goals effectively.
+
+## Installation
+
+To get started with the Productivity Nextjs Webapp, follow these steps:
+
+1. Clone the repository or fork it to your GitHub account.
+
+   ```bash
+   git clone https://github.com/your-username/productivity-nextjs-webapp.git
+   ```
+
+2. Navigate to the project directory.
+
+   ```bash
+   cd productivity-nextjs-webapp
+   ```
+
+3. Install the required dependencies using npm.
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To run the Productivity Nextjs Webapp locally, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the development server is up and running, you can access the web app at `http://localhost:3000` in your web browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The development of the Productivity Nextjs Webapp will follow the following roadmap:
 
-## Learn More
+1. **User Authentication**: Implement a secure user authentication system to allow users to sign up, log in, and manage their profiles.
 
-To learn more about Next.js, take a look at the following resources:
+2. **Task Management**: Create a feature that enables users to add, edit, and delete tasks, set due dates, and organize tasks into categories.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Project Tracking**: Develop functionality to manage personal projects, including progress tracking, deadlines, and collaboration options.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Calendar Integration**: Integrate a calendar module that syncs with users' tasks and projects, allowing for effective time management.
 
-## Deploy on Vercel
+5. **User Interface Refinement**: Enhance the user interface for a smooth and intuitive experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. **Performance Optimization**: Optimize the application for better performance, ensuring quick load times and responsiveness.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. **Testing and Bug Fixing**: Conduct thorough testing and resolve any identified issues or bugs.
+
+8. **Documentation**: Create detailed documentation to help users and developers understand the app's features and codebase.
+
+## Contributors
+
+- [Acr0l](https://github.com/Acr0l)
+
+We welcome contributions from the community to improve the Productivity Nextjs webapp. If you're interested in contributing, please feel free to open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://mit-license.org/) file for details.
