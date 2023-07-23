@@ -6,7 +6,7 @@ export default function AuthRootLayout({ children }: { children: any }) {
     <html lang="en">
       <head />
       <body
-        className="h-screen w-screen rainbow-mesh"
+        className="h-screen w-screen rainbow-mesh p-6"
         suppressHydrationWarning={true}
       >
         <GlassPane className="w-full h-full flex items-center justify-center">
